@@ -6,3 +6,46 @@ body { background: #000; color: #fff; font-family: 'Courier New', monospace; tex
 .item img { width: 100%; filter: grayscale(100%); }
 .vinted-btn { display: block; background: #fff; color: #000; padding: 10px; margin-top: 10px; text-decoration: none; font-weight: bold; }
 .vinted-btn:hover { background: #ff0000; color: #fff; } /* Devient rouge au survol */
+footer {
+    margin-top: 100px;
+    padding: 60px 20px;
+    border-top: 1px solid #222;
+    background-color: #000;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.email {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.email:hover {
+    color: #ff0000; /* Le mail devient rouge au survol */
+    text-shadow: 0 0 8px rgba(255, 0, 0, 0.5);
+}
+
+.separator {
+    width: 50px;
+    height: 1px;
+    background: #333;
+    margin: 30px auto;
+}
+
+.manifesto {
+    font-size: 0.6rem !important;
+    opacity: 0.4;
+}
