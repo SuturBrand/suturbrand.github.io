@@ -28,13 +28,20 @@ footer {
 .email {
     font-size: 1.2rem;
     color: #fff;
-    text-decoration: none;
+    text-decoration: none !important; /* Supprime le soulignement */
     font-weight: bold;
     transition: 0.3s;
 }
 
+/* On s'assure que le lien reste blanc même après avoir été cliqué */
+.email:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
 .email:hover {
-    color: #ff0000; /* Le mail devient rouge au survol */
+    color: #ff0000; 
+    text-decoration: none !important;
     text-shadow: 0 0 8px rgba(255, 0, 0, 0.5);
 }
 
